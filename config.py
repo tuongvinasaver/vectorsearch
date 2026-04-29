@@ -15,4 +15,4 @@ DB_CONFIG = {
 # Flask Configuration
 FLASK_ENV = os.getenv('FLASK_ENV', 'development')
 DEBUG = FLASK_ENV == 'development'
-PORT = int(os.getenv('PORT', 5000))
+PORT = int(os.getenv('PORT', 8000))
